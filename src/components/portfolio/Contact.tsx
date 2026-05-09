@@ -13,27 +13,29 @@ export function Contact() {
       </Reveal>
       <Reveal delay={0.2}>
         <p className="mx-auto mt-6 max-w-xl text-muted-foreground">
-          My inbox is always open. Whether it's a project, a role, or just to
-          say hi — I'll do my best to get back to you.
+          Looking for a data analyst who can turn your messy data into clear
+          decisions? I'm open to roles, contracts and collaborations — drop
+          me a line.
         </p>
       </Reveal>
       <Reveal delay={0.3}>
         <a
-          href="mailto:hello@kaihoang.dev"
+          href="mailto:kaihoang.1505@gmail.com"
           className="mt-10 inline-block rounded-md border border-neon/50 bg-neon/5 px-8 py-4 font-mono text-sm uppercase tracking-widest text-neon shadow-[0_0_40px_-8px_var(--neon)] transition-all hover:bg-neon/10 hover:shadow-[0_0_60px_-4px_var(--neon)]"
         >
-          hello@kaihoang.dev
+          kaihoang.1505@gmail.com
         </a>
       </Reveal>
       <Reveal delay={0.4}>
-        <ul className="mt-12 flex justify-center gap-6 font-mono text-xs uppercase tracking-widest text-muted-foreground">
-          {["GitHub", "LinkedIn", "Twitter", "Read.cv"].map((s) => (
-            <li key={s}>
-              <a
-                href="#"
-                className="transition-colors hover:text-neon"
-              >
-                {s}
+        <ul className="mt-12 flex flex-wrap justify-center gap-6 font-mono text-xs uppercase tracking-widest text-muted-foreground">
+          {[
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/kai-hoang/" },
+            { label: "Email", href: "mailto:kaihoang.1505@gmail.com" },
+            { label: "Phone", href: "tel:+61415599450" },
+          ].map((s) => (
+            <li key={s.label}>
+              <a href={s.href} className="transition-colors hover:text-neon">
+                {s.label}
               </a>
             </li>
           ))}

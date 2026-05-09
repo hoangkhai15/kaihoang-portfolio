@@ -22,7 +22,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="font-mono text-sm text-neon"
         >
-          {"// hello world — my name is"}
+          {"// hi, my name is"}
         </motion.p>
 
         <motion.h1
@@ -40,13 +40,13 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="mt-2 text-4xl font-bold text-muted-foreground md:text-6xl lg:text-7xl"
         >
-          I build{" "}
+          I turn data into{" "}
           <Typewriter
             phrases={[
-              "interfaces.",
-              "design systems.",
-              "delightful UX.",
-              "fast products.",
+              "decisions.",
+              "dashboards.",
+              "insights.",
+              "growth.",
             ]}
           />
         </motion.h2>
@@ -57,9 +57,9 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.45 }}
           className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg"
         >
-          I'm a software engineer crafting performant, accessible web
-          experiences at the intersection of design and engineering. Currently
-          shipping product at a Series B startup.
+          Data analyst based in Adelaide, blending SQL, Python and Power BI
+          with a business analytics background to help teams make faster,
+          sharper, data-driven decisions.
         </motion.p>
 
         <motion.div

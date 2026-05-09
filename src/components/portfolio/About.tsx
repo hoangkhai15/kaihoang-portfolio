@@ -8,19 +8,22 @@ export function About() {
       <div className="grid gap-12 md:grid-cols-[3fr_2fr]">
         <Reveal delay={0.05} className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            Hey — I'm Kai. I started writing code at 14 because I wanted to
-            mod a video game. A decade later I'm still chasing the same
-            feeling: building things people actually enjoy using.
+            Hi — I'm Kai. I started in logistics, then fell in love with the
+            stories hidden inside spreadsheets. An MBA in Business Analytics
+            later, I now spend my days turning messy operational data into
+            dashboards people actually use.
           </p>
           <p>
-            Today I focus on the front of the front-end — design systems,
-            motion, accessibility, performance. I care a lot about details:
-            the easing on a button press, the contrast of a focus ring, the
-            shape of an empty state.
+            I work across the full analytics stack: writing SQL against
+            warehouses like Snowflake and Databricks, modelling data with
+            Python, and shipping decision-ready dashboards in Power BI and
+            Tableau. I care about data quality, clear definitions, and the
+            business question behind every chart.
           </p>
           <p>
-            Outside of work you'll find me on a bike somewhere, brewing
-            espresso, or losing at chess online.
+            Outside of work I'm exploring agentic workflows and automation,
+            and learning how to make analytics feel less like reporting and
+            more like a conversation.
           </p>
         </Reveal>
         <Reveal delay={0.15}>
