@@ -3,31 +3,33 @@ import { SectionHeading } from "./SectionHeading";
 
 const jobs = [
   {
-    role: "Senior Software Engineer",
-    company: "Northwind",
-    period: "2023 — Present",
+    role: "Data Analyst Intern",
+    company: "Youth Options",
+    period: "Apr 2025 — Jul 2025 · Adelaide",
     points: [
-      "Lead front-end architect for the core product, owning performance, design system, and motion language.",
-      "Cut Time-to-Interactive by 48% through route-level code-splitting and edge rendering.",
-      "Mentor 4 engineers; run weekly design-engineering syncs.",
+      "Designed Power BI dashboards backed by SQL KPI analysis, cutting administrative time by 10% through data-driven decisions.",
+      "Used Python and Google Sheets to extract, transform and store data, ensuring quality and accuracy across reporting.",
+      "Performed data validation and process analysis on CRM systems to meet NDIS service standards and improve referral conversion.",
     ],
   },
   {
-    role: "Product Engineer",
-    company: "Loop Labs",
-    period: "2021 — 2023",
+    role: "Professional Project Consultant",
+    company: "All Altitudes",
+    period: "Feb 2024 — May 2024 · Adelaide",
     points: [
-      "Shipped the v2 dashboard end-to-end (design → ship) in 6 weeks.",
-      "Built realtime collaboration layer over CRDTs serving 50k DAU.",
+      "Facilitated cross-functional workshops to align data definitions and reporting metrics, reducing project rework by 15%.",
+      "Built dashboards, reports and visualisations that informed strategic recommendations.",
+      "Led a critical data alignment project ensuring consistent, accurate information flow across internal systems.",
     ],
   },
   {
-    role: "Front-end Engineer",
-    company: "Studio Ember",
-    period: "2019 — 2021",
+    role: "Sales Analyst",
+    company: "One Line Vietnam",
+    period: "Jun 2022 — Sep 2022 · Vietnam",
     points: [
-      "Crafted award-winning marketing sites for Stripe, Figma, and Linear.",
-      "Won FWA Site of the Day twice for interactive case studies.",
+      "Queried key transactional data with SQL to drive detailed sales analysis for a global logistics provider.",
+      "Built logistics visualisations that improved routing efficiency and lifted delivery times by 5%.",
+      "Managed client relationships, maintaining 90%+ satisfaction and using data insights to close substantial deals.",
     ],
   },
 ];
