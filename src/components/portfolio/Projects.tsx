@@ -3,31 +3,31 @@ import { SectionHeading } from "./SectionHeading";
 
 const projects = [
   {
-    title: "Lumen UI",
+    title: "Bike Sales Exploration",
     description:
-      "An open-source React component library built on Radix and Tailwind. 2k+ stars, used in production by 200+ teams.",
-    tags: ["React", "TypeScript", "Tailwind", "Radix"],
+      "Built a star-schema model over a large transactional bike sales dataset and ran SQL deep-dives into customer regions, purchase frequency and top-revenue stores to inform marketing and inventory.",
+    tags: ["SQL", "Data Modelling", "Star Schema"],
     link: "#",
   },
   {
-    title: "Pulse Analytics",
+    title: "Sales & Marketing Analysis",
     description:
-      "Realtime analytics dashboard for product teams. Sub-100ms query latency over 1B+ events with edge caching.",
-    tags: ["Next.js", "ClickHouse", "Edge", "tRPC"],
+      "Power BI dashboard tracking $230M in retail revenue across stores and categories. Modelled customer engagement by age segment and weekday to time promotions and target campaigns.",
+    tags: ["Power BI", "Excel", "Retail KPIs"],
     link: "#",
   },
   {
-    title: "Orbit",
+    title: "Pizza Business Dashboard",
     description:
-      "Calendar app reimagined around focus blocks. Native-feeling web app with offline-first sync.",
-    tags: ["React", "IndexedDB", "Service Workers"],
+      "Power BI dashboard isolating peak day/hour performance to inform staff scheduling, surfacing top menu and ingredient contributors, and modelling price/volume elasticity.",
+    tags: ["Power BI", "DAX", "Forecasting"],
     link: "#",
   },
   {
-    title: "Sonata",
+    title: "TikTok Strategy Analysis",
     description:
-      "Generative ambient music tool driven by Web Audio + WebGL shaders. Featured on Hacker News.",
-    tags: ["WebAudio", "WebGL", "Vite"],
+      "MBA capstone project analysing TikTok content performance and audience behaviour. Recommendations led to a new content management strategy and a 10% reduction in average time-to-publish.",
+    tags: ["Analytics", "Strategy", "Research"],
     link: "#",
   },
 ];
