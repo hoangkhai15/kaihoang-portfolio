@@ -2,10 +2,10 @@ import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 
 const groups = [
-  { title: "Languages", items: ["TypeScript", "JavaScript", "Python", "Rust", "SQL"] },
-  { title: "Frameworks", items: ["React", "Next.js", "Remix", "Node", "tRPC"] },
-  { title: "Design & Motion", items: ["Tailwind", "Figma", "Framer Motion", "WebGL", "GSAP"] },
-  { title: "Infra", items: ["Postgres", "Redis", "Vercel", "Cloudflare", "Docker"] },
+  { title: "Data Visualisation", items: ["Power BI", "Tableau", "Excel"] },
+  { title: "Languages", items: ["SQL", "Python"] },
+  { title: "Cloud & Warehouses", items: ["Snowflake", "Databricks", "Microsoft Fabric", "SQL Server", "Oracle"] },
+  { title: "AI & Automation", items: ["Agentic Workflows", "Workflow Orchestration", "CRM Data Mgmt", "Process Optimization"] },
 ];
 
 export function Skills() {
