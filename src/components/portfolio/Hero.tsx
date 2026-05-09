@@ -22,7 +22,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="font-mono text-sm text-neon"
         >
-          {"// hello world — my name is"}
+          {"// hi, my name is"}
         </motion.p>
 
         <motion.h1
