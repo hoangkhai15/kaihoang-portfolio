@@ -30,13 +30,6 @@ const projects = [
     tags: ["Power BI", "DAX", "Forecasting"],
     link: "#",
   },
-  {
-    title: "TikTok Strategy Analysis",
-    description:
-      "MBA capstone project analysing TikTok content performance and audience behaviour. Recommendations led to a new content management strategy and a 10% reduction in average time-to-publish.",
-    tags: ["Analytics", "Strategy", "Research"],
-    link: "#",
-  },
 ];
 
 export function Projects() {
