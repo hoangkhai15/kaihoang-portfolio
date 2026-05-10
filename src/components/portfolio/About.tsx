@@ -1,5 +1,6 @@
 import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
+import kaiPortrait from "@/assets/kai-hoang.jpg";
 
 export function About() {
   return (
@@ -27,15 +28,17 @@ export function About() {
           </p>
         </Reveal>
         <Reveal delay={0.15}>
-          <div className="group relative aspect-square overflow-hidden rounded-lg border border-neon/30 p-1 glow-hover">
+          <div className="group relative aspect-[3/4] overflow-hidden rounded-lg border border-neon/30 p-1 glow-hover">
+            <img
+              src={kaiPortrait}
+              alt="Portrait of Kai Hoang"
+              loading="lazy"
+              className="h-full w-full rounded-md object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+            />
             <div
-              className="h-full w-full rounded-md bg-gradient-to-br from-neon/30 via-transparent to-neon-2/30"
+              className="pointer-events-none absolute inset-1 rounded-md bg-gradient-to-tr from-neon/10 via-transparent to-neon-2/10 mix-blend-overlay"
               aria-hidden="true"
-            >
-              <div className="flex h-full w-full items-center justify-center font-mono text-6xl text-foreground/80">
-                KH
-              </div>
-            </div>
+            />
           </div>
         </Reveal>
       </div>
