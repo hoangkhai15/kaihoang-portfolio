@@ -3,6 +3,13 @@ import { SectionHeading } from "./SectionHeading";
 
 const projects = [
   {
+    title: "Retail Supply Chain Analytics",
+    description:
+      "End-to-end EDA pipeline in Python (Pandas, Matplotlib) over ~10,000 transactions and $2.3M in sales. Used Claude AI to accelerate insight synthesis across 4 regions and 3 segments — surfaced a $17.7K loss in the Tables sub-category and an 8% return rate concentrated in low-margin lines, informing discount and inventory strategy.",
+    tags: ["Python", "SQL", "Power BI", "Claude AI"],
+    link: "#",
+  },
+  {
     title: "Bike Sales Exploration",
     description:
       "Built a star-schema model over a large transactional bike sales dataset and ran SQL deep-dives into customer regions, purchase frequency and top-revenue stores to inform marketing and inventory.",
