@@ -44,8 +44,9 @@ export function Nav() {
           ))}
         </ul>
         <a
-          href="/Kai-Hoang-Resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1ap6v7AD7q863z--YOJeb4mH0HEkZEnig/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden rounded-md border border-neon/40 px-4 py-2 font-mono text-xs uppercase tracking-widest text-neon shadow-[0_0_24px_-8px_var(--neon)] transition-all hover:bg-neon/10 hover:shadow-[0_0_32px_-4px_var(--neon)] md:inline-block"
         >
           Resume ↓
