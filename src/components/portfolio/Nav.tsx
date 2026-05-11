@@ -44,7 +44,7 @@ export function Nav() {
           ))}
         </ul>
         <a
-          href="https://drive.google.com/file/d/1VfI5O1sBgPdqGikAb6MZDZzKSEM5zZGY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bRASQPV_ys2K44h27bhlDL6L1yem24sp/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden rounded-md border border-neon/40 px-4 py-2 font-mono text-xs uppercase tracking-widest text-neon shadow-[0_0_24px_-8px_var(--neon)] transition-all hover:bg-neon/10 hover:shadow-[0_0_32px_-4px_var(--neon)] md:inline-block"
