@@ -14,7 +14,7 @@ const projects = [
     description:
       "Built a star-schema model over a large transactional bike sales dataset and ran SQL deep-dives into customer regions, purchase frequency and top-revenue stores to inform marketing and inventory.",
     tags: ["SQL", "Data Modelling", "Star Schema"],
-    link: "https://github.com/hoangkhai15/Bikes-Sales-Performance-Analysis-with-SQL",
+    link: "https://github.com/hoangkhai15/Bikes-Sales-Performance-Analysis-with-SQL-",
   },
   {
     title: "Sales & Marketing Analysis",
