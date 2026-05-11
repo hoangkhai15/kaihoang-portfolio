@@ -32,7 +32,7 @@ export function Contact() {
             { label: "LinkedIn", href: "https://www.linkedin.com/in/kai-hoang-910520286/" },
             { label: "Email", href: "mailto:kaihoang.1505@gmail.com" },
             { label: "Phone", href: "tel:+61415599450" },
-            { label: "Resume ↓", href: "https://drive.google.com/file/d/1VfI5O1sBgPdqGikAb6MZDZzKSEM5zZGY/view?usp=sharing" },
+            { label: "Resume ↓", href: "https://drive.google.com/file/d/1bRASQPV_ys2K44h27bhlDL6L1yem24sp/view?usp=sharing" },
           ].map((s) => (
             <li key={s.label}>
               <a href={s.href} className="transition-colors hover:text-neon">
